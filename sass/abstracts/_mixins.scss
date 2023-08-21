@@ -24,19 +24,6 @@
   }
 }
 
-@mixin whiteText() {
-  &[data-type='white'] {
-    color: clr(neutral, 100);
-  }
-}
-
-// @mixin fontSize($value) {
-//   font-size: var(--fs-#{value});
-//   @if $value > 600 {
-//     line-height: 1.1;
-//   }
-// }
-
 @mixin heading($fs, $color: $heading-color-default) {
   font-size: $fs;
   color: $color;

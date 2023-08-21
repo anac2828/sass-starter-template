@@ -17,6 +17,8 @@ img {
   max-width: 100%;
 }
 
-a, a:link, a:hover, a:focus, a:active{
-  text-decoration: none;
+a{
+  &:is(link, hover, focus, active){
+    text-decoration: none;
+  }
 }
